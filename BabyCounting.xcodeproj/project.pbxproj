@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		1A752C7A2A3BD460E1B6D8AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF9CECD5137FB7EB4A8927D /* ContentView.swift */; };
+		77B31E7547171C61A6B17A5C /* FindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD943B6B6F1C93BE7EF7DDF /* FindView.swift */; };
+		C172A2F5059959F7D2A062F4 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301097CAC960DC2EDAB1D98 /* LearnView.swift */; };
+		CB2AED8D16A5F85EE66609A6 /* ParentMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC129788CA25D088EEA404E /* ParentMenu.swift */; };
 		D240F66458DB5DA8935DE3DF /* BabyCountingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CA8306393A0490D38847CF /* BabyCountingApp.swift */; };
+		DC67F672981093038028B45C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A136AD6DF8481695FBF03B /* Models.swift */; };
+		E09B004CC41F5FCEF1329749 /* TouchSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E13C44BDB57B0521E70676 /* TouchSurface.swift */; };
+		EAB37922EB10C1E2F19341E1 /* BabyCountingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1595109B329B81390AF5AA /* BabyCountingUITests.swift */; };
+		F50151485CB8BDD1B94AB21E /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF29D569B5F8F4FC7A96791 /* Progress.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8884DF0C8AEF476155A9C6DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6892384E9F776638E534266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA358A990F8C49A4DD1C4003;
+			remoteInfo = BabyCounting;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		09E13C44BDB57B0521E70676 /* TouchSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSurface.swift; sourceTree = "<group>"; };
+		0F1595109B329B81390AF5AA /* BabyCountingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCountingUITests.swift; sourceTree = "<group>"; };
+		2301097CAC960DC2EDAB1D98 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		2AF29D569B5F8F4FC7A96791 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		4AD943B6B6F1C93BE7EF7DDF /* FindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindView.swift; sourceTree = "<group>"; };
 		56EA274F559109AC385843A0 /* BabyCounting.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BabyCounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71CA8306393A0490D38847CF /* BabyCountingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCountingApp.swift; sourceTree = "<group>"; };
+		7AC129788CA25D088EEA404E /* ParentMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentMenu.swift; sourceTree = "<group>"; };
+		A1A136AD6DF8481695FBF03B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C28312E9A399932F814DB037 /* BabyCountingUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = BabyCountingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF9CECD5137FB7EB4A8927D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -22,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				F1CC9C8FAACFB01CF749D8CF /* BabyCounting */,
+				D223A72F1465DF9E9CABC627 /* BabyCountingUITests */,
 				93604E266E6C68C82BEAE618 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -30,8 +56,17 @@
 			isa = PBXGroup;
 			children = (
 				56EA274F559109AC385843A0 /* BabyCounting.app */,
+				C28312E9A399932F814DB037 /* BabyCountingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D223A72F1465DF9E9CABC627 /* BabyCountingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1595109B329B81390AF5AA /* BabyCountingUITests.swift */,
+			);
+			path = BabyCountingUITests;
 			sourceTree = "<group>";
 		};
 		F1CC9C8FAACFB01CF749D8CF /* BabyCounting */ = {
@@ -39,6 +74,12 @@
 			children = (
 				71CA8306393A0490D38847CF /* BabyCountingApp.swift */,
 				EFF9CECD5137FB7EB4A8927D /* ContentView.swift */,
+				4AD943B6B6F1C93BE7EF7DDF /* FindView.swift */,
+				2301097CAC960DC2EDAB1D98 /* LearnView.swift */,
+				A1A136AD6DF8481695FBF03B /* Models.swift */,
+				7AC129788CA25D088EEA404E /* ParentMenu.swift */,
+				2AF29D569B5F8F4FC7A96791 /* Progress.swift */,
+				09E13C44BDB57B0521E70676 /* TouchSurface.swift */,
 			);
 			path = BabyCounting;
 			sourceTree = "<group>";
@@ -46,6 +87,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3BD913287595E4F92EDB2E7D /* BabyCountingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E95580988B2BBF1EC0AC67 /* Build configuration list for PBXNativeTarget "BabyCountingUITests" */;
+			buildPhases = (
+				3F56306F634F4414B1381F30 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42873428A330E0CF3E4758B0 /* PBXTargetDependency */,
+			);
+			name = BabyCountingUITests;
+			packageProductDependencies = (
+			);
+			productName = BabyCountingUITests;
+			productReference = C28312E9A399932F814DB037 /* BabyCountingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EA358A990F8C49A4DD1C4003 /* BabyCounting */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFABB4ADE042CCCED5D39B6E /* Build configuration list for PBXNativeTarget "BabyCounting" */;
@@ -72,6 +131,9 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					3BD913287595E4F92EDB2E7D = {
+						TestTargetID = EA358A990F8C49A4DD1C4003;
+					};
 				};
 			};
 			buildConfigurationList = 87FD7AF8C25381C2066BF5B4 /* Build configuration list for PBXProject "BabyCounting" */;
@@ -89,23 +151,63 @@
 			projectRoot = "";
 			targets = (
 				EA358A990F8C49A4DD1C4003 /* BabyCounting */,
+				3BD913287595E4F92EDB2E7D /* BabyCountingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F56306F634F4414B1381F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB37922EB10C1E2F19341E1 /* BabyCountingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E1AA4EF247E77666007AE88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D240F66458DB5DA8935DE3DF /* BabyCountingApp.swift in Sources */,
 				1A752C7A2A3BD460E1B6D8AB /* ContentView.swift in Sources */,
+				77B31E7547171C61A6B17A5C /* FindView.swift in Sources */,
+				C172A2F5059959F7D2A062F4 /* LearnView.swift in Sources */,
+				DC67F672981093038028B45C /* Models.swift in Sources */,
+				CB2AED8D16A5F85EE66609A6 /* ParentMenu.swift in Sources */,
+				F50151485CB8BDD1B94AB21E /* Progress.swift in Sources */,
+				E09B004CC41F5FCEF1329749 /* TouchSurface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		42873428A330E0CF3E4758B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA358A990F8C49A4DD1C4003 /* BabyCounting */;
+			targetProxy = 8884DF0C8AEF476155A9C6DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2B11293E4E16FCECE4576F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldblake.BabyCountingUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyCounting;
+			};
+			name = Debug;
+		};
 		315F47E3EB231AED2F079A4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -169,6 +271,23 @@
 			};
 			name = Debug;
 		};
+		3CED512DD7D72D752FE54C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldblake.BabyCountingUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabyCounting;
+			};
+			name = Release;
+		};
 		66962106A42033D9198807DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -178,6 +297,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Baby Count";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -257,6 +378,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Baby Count";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -274,6 +397,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		43E95580988B2BBF1EC0AC67 /* Build configuration list for PBXNativeTarget "BabyCountingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B11293E4E16FCECE4576F49 /* Debug */,
+				3CED512DD7D72D752FE54C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		87FD7AF8C25381C2066BF5B4 /* Build configuration list for PBXProject "BabyCounting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

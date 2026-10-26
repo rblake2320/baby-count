@@ -15,8 +15,29 @@ targets:
         GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
         INFOPLIST_KEY_CFBundleDisplayName: Baby Count
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
         INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         SWIFT_VERSION: "5.0"
         MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
+  BabyCountingUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [BabyCountingUITests]
+    dependencies:
+      - target: BabyCounting
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: BabyCounting
+        PRODUCT_BUNDLE_IDENTIFIER: com.ronaldblake.BabyCountingUITests
+schemes:
+  BabyCounting:
+    build:
+      targets:
+        BabyCounting: all
+        BabyCountingUITests: [test]
+    test:
+      targets: [BabyCountingUITests]
