@@ -134,6 +134,9 @@
 					3BD913287595E4F92EDB2E7D = {
 						TestTargetID = EA358A990F8C49A4DD1C4003;
 					};
+					EA358A990F8C49A4DD1C4003 = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 87FD7AF8C25381C2066BF5B4 /* Build configuration list for PBXProject "BabyCounting" */;
@@ -293,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Baby Count";
@@ -374,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Baby Count";
