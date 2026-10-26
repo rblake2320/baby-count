@@ -1,8 +1,16 @@
 # Baby Count
 
-A tiny SwiftUI app for babies and toddlers. It counts from one to ten and cycles through the three primary colors: red, yellow, and blue.
+A tiny SwiftUI app for babies and toddlers. It counts from one to ten and shows the three primary colors: red, yellow, and blue.
 
-Tap anywhere on the screen to go to the next number. Each tap speaks the number and the color out loud, for example "Two! Yellow!". After ten it starts again at one.
+Tap anywhere on the screen to go to the next step. The app speaks each one out loud. After the last step it starts over.
+
+Buttons at the top switch between three modes:
+
+- **Both**: numbers one to ten on a red, yellow, or blue screen. It says "Two! Yellow!"
+- **Numbers**: just the numbers one to ten on a plain light screen. It says "Two!"
+- **Colors**: just red, yellow, and blue. It says "Yellow!"
+
+The app remembers the last mode you picked.
 
 Runs on iPhone and iPad, iOS 17 or later.
 
